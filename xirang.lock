@@ -1,0 +1,33 @@
+xirang-lock: 1
+top: soc-switch
+packages:
+- name: amba
+  version: 0.1.0
+  kind: library
+  source:
+    path: amba
+  digest: sha256:469416865301ac37fe66620b41bb44bb
+- name: emac
+  version: 0.1.0
+  kind: ip
+  source:
+    path: emac
+  digest: sha256:14fe9325d4a567c52e6b15f9eb73e34e
+- name: eswitch
+  version: 0.1.0
+  kind: ip
+  source:
+    path: eswitch
+  digest: sha256:160ee037dd5d9a4f4ff7924be0ba3811
+- name: hwcore
+  version: 0.1.0
+  kind: library
+  source:
+    path: hwcore
+  digest: sha256:f23e8ba4e43310b13588fba6b838b619
+- name: soc-switch
+  version: 0.1.0
+  kind: ip
+  source:
+    path: soc-switch
+  digest: sha256:3e6917135a37b63c08e4faa08a8f113d

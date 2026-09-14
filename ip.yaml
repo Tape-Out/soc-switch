@@ -1,0 +1,22 @@
+name: soc-switch
+version: 0.1.0
+spec: '0.1'
+identity:
+  slug: soc-switch-tapeout
+  display_name: Ethernet switch reference SoC
+  category: soc
+  maturity: planned
+  summary: 'A coreless four-port Ethernet switch assembled from the catalogue and managed
+    over the external APB4 port, with no RTL of its own.'
+bus: apb4
+instances:
+- name: sw0
+  of: eswitch
+  with:
+    ports: 4
+    macEntries: 16
+    vlan: false
+  addr: 268435456
+deps:
+  hwcore: ^0.1
+  amba: ^0.1
