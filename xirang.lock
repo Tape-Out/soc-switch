@@ -18,7 +18,7 @@ packages:
   kind: ip
   source:
     path: eswitch
-  digest: sha256:ce67a20b825e83af806ad8ba19a3d06a
+  digest: sha256:66ea23f00920b84149681477f0176db5
 - name: hwcore
   version: 0.1.0
   kind: library
