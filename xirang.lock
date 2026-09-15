@@ -24,7 +24,7 @@ packages:
   kind: library
   source:
     path: hwcore
-  digest: sha256:601382042c45e154024f5be57acdaf93
+  digest: sha256:beb4eafb64ce83e3daaacbf9b86fc216
 - name: soc-switch
   version: 0.1.0
   kind: ip
