@@ -18,13 +18,13 @@ packages:
   kind: ip
   source:
     path: eswitch
-  digest: sha256:160ee037dd5d9a4f4ff7924be0ba3811
+  digest: sha256:ce67a20b825e83af806ad8ba19a3d06a
 - name: hwcore
   version: 0.1.0
   kind: library
   source:
     path: hwcore
-  digest: sha256:f23e8ba4e43310b13588fba6b838b619
+  digest: sha256:4704e2bd8019d8274e5d14ddf8779086
 - name: soc-switch
   version: 0.1.0
   kind: ip
