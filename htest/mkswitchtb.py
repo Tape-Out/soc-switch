@@ -35,7 +35,7 @@ import RmiiRx::*;
 import Eswitch::*;
 import SocSwitchPkg::*;
 
-// 由 tb/mkswitchtb.py 生成，勿手改。
+// 由 htest/mkswitchtb.py 生成，勿手改。
 
 typedef enum {{ Cfg, Send0, Gap0, Chk0, Send1, Gap1, Done }}
   Phase deriving (Bits, Eq);
