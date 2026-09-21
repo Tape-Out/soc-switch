@@ -6,25 +6,25 @@ packages:
   kind: library
   source:
     path: amba
-  digest: sha256:f70a7b619a65dc9b2e936e3f1347d043
+  digest: sha256:7c58f4afd3ba2c0f19717f5acb9958ca
 - name: emac
   version: 0.1.0
   kind: ip
   source:
     path: emac
-  digest: sha256:8bde81abcc947cf0fb9c1b6ea064dfa6
+  digest: sha256:6d0a86a6c00b02b7bf3591f932f4da7d
 - name: eswitch
   version: 0.1.0
   kind: ip
   source:
     path: eswitch
-  digest: sha256:66ea23f00920b84149681477f0176db5
+  digest: sha256:557294bef3432d8d040405739d7797fb
 - name: hwcore
   version: 0.1.0
   kind: library
   source:
     path: hwcore
-  digest: sha256:b9b76559f5e1041e77768b1cf979a8ee
+  digest: sha256:beb4eafb64ce83e3daaacbf9b86fc216
 - name: soc-switch
   version: 0.1.0
   kind: ip
