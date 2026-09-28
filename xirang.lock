@@ -6,7 +6,7 @@ packages:
   kind: library
   source:
     path: amba
-  digest: sha256:f70a7b619a65dc9b2e936e3f1347d043
+  digest: sha256:d3705f25fbcad6457cff68399ff5c5aa
 - name: emac
   version: 0.1.0
   kind: ip
@@ -24,7 +24,7 @@ packages:
   kind: library
   source:
     path: hwcore
-  digest: sha256:b9b76559f5e1041e77768b1cf979a8ee
+  digest: sha256:6d458b35d1377f1ebd0f54d9fb8391d0
 - name: soc-switch
   version: 0.1.0
   kind: ip
