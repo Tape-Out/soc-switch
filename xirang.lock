@@ -6,19 +6,19 @@ packages:
   kind: library
   source:
     path: amba
-  digest: sha256:d3705f25fbcad6457cff68399ff5c5aa
+  digest: sha256:580eb25b187d414bd3343818e5cec023
 - name: emac
   version: 0.1.0
   kind: ip
   source:
     path: emac
-  digest: sha256:6d0a86a6c00b02b7bf3591f932f4da7d
+  digest: sha256:7a786ecdb104b729e1df09939316acf6
 - name: eswitch
   version: 0.1.0
   kind: ip
   source:
     path: eswitch
-  digest: sha256:557294bef3432d8d040405739d7797fb
+  digest: sha256:53f285958d418c790607f0e736b3c12d
 - name: hwcore
   version: 0.1.0
   kind: library
